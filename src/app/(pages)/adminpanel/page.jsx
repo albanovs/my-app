@@ -263,7 +263,7 @@ export default function AdminPage() {
             >
               <option value="">Выберите категорию</option>
               {categories.map((cat) => (
-                <option key={cat.id} value={cat.id}>{cat.name}</option>
+                <option className=" text-black" key={cat.id} value={cat.id}>{cat.name}</option>
               ))}
             </select>
             <input
